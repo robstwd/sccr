@@ -8,8 +8,8 @@ imports:
 - linkml:types
 license: Apache-2.0
 prefixes:
-  sccr-poc:
-    prefix_prefix: sccr-poc
+  sccr_poc:
+    prefix_prefix: sccr_poc
     prefix_reference: https://w3id.org/robstwd/sccr/
   linkml:
     prefix_prefix: linkml
@@ -26,7 +26,7 @@ prefixes:
   example:
     prefix_prefix: example
     prefix_reference: http://www.example.org/rdf#
-default_prefix: sccr-poc
+default_prefix: sccr_poc
 default_range: string
 types:
   string:
@@ -385,7 +385,7 @@ slots:
     definition_uri: https://w3id.org/robstwd/sccr/age_in_years
     description: Number of years since birth
     from_schema: https://w3id.org/robstwd/sccr
-    slot_uri: sccr-poc:age_in_years
+    slot_uri: sccr_poc:age_in_years
     owner: Person
     domain_of:
     - Person
@@ -395,7 +395,7 @@ slots:
     definition_uri: https://w3id.org/robstwd/sccr/vital_status
     description: living or dead status
     from_schema: https://w3id.org/robstwd/sccr
-    slot_uri: sccr-poc:vital_status
+    slot_uri: sccr_poc:vital_status
     owner: Person
     domain_of:
     - Person
@@ -403,7 +403,7 @@ slots:
   personCollection__people:
     name: personCollection__people
     from_schema: https://w3id.org/robstwd/sccr
-    slot_uri: sccr-poc:people
+    slot_uri: sccr_poc:people
     alias: people
     owner: PersonCollection
     domain_of:
@@ -461,7 +461,7 @@ classes:
       primary_email:
         name: primary_email
         pattern: ^\S+@[\S+\.]+\S+
-    class_uri: sccr-poc:Person
+    class_uri: sccr_poc:Person
   PersonCollection:
     name: PersonCollection
     definition_uri: https://w3id.org/robstwd/sccr/PersonCollection
@@ -475,10 +475,9 @@ classes:
         range: Person
         multivalued: true
         inlined_as_list: true
-    class_uri: sccr-poc:PersonCollection
+    class_uri: sccr_poc:PersonCollection
     tree_root: true
 metamodel_version: 1.12.0
-source_file: sccr-poc.yaml
-source_file_date: '2026-11-17T03:43:46'
+source_file: sccr_poc.yaml
+source_file_date: '2026-11-17T11:47:41'
 source_file_size: 2210
-

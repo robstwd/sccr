@@ -3,7 +3,7 @@ requires = ["hatchling", "uv-dynamic-versioning"]
 build-backend = "hatchling.build"
 
 [project]
-name = "sccr-poc"
+name = "sccr_poc"
 description = "This is the project description."
 authors = [
   {name = "Rob Eastwood", email = "my-name@my-org.org"},
@@ -32,7 +32,7 @@ dev = [
 # explicitly include files other than default into the build distributions.
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/sccr-poc"]
+packages = ["src/sccr_poc"]
 
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
@@ -50,7 +50,7 @@ testpaths = ["tests"]
 # https://docs.astral.sh/ruff/configuration/
 [tool.ruff]
 exclude = [
-    "src/sccr-poc/_version.py",
+    "src/sccr_poc/_version.py",
 ]
 # Set oldest supported Python version
 target-version = "py310"
@@ -62,8 +62,8 @@ skip = [
   "pyproject.toml",
   "uv.lock",
   "project/*",
-  "src/sccr-poc/datamodel/sccr-poc_pydantic.py",
-  "src/sccr-poc/datamodel/sccr-poc.py",
+  "src/sccr_poc/datamodel/sccr_poc_pydantic.py",
+  "src/sccr_poc/datamodel/sccr_poc.py",
 ]
 
 # Reminder: words have to be lowercased for the ignore-words-list
@@ -80,6 +80,6 @@ extend-exclude = [
   "uv.lock",
   "pyproject.toml",
   "project/*",
-  "src/sccr-poc/datamodel/sccr-poc_pydantic.py",
-  "src/sccr-poc/datamodel/sccr-poc.py",
+  "src/sccr_poc/datamodel/sccr_poc_pydantic.py",
+  "src/sccr_poc/datamodel/sccr_poc.py",
 ]

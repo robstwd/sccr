@@ -15,10 +15,10 @@ This is the project description.
 * [examples/](examples/) - Examples of using the schema
 * [project/](project/) - project files (these files are auto-generated, do not edit)
 * [src/](src/) - source files (edit these)
-  * [sccr-poc](src/sccr-poc)
-    * [schema/](src/sccr-poc/schema) -- LinkML schema
+  * [sccr_poc](src/sccr_poc)
+    * [schema/](src/sccr_poc/schema) -- LinkML schema
       (edit this)
-    * [datamodel/](src/sccr-poc/datamodel) -- generated
+    * [datamodel/](src/sccr_poc/datamodel) -- generated
       Python datamodel
 * [tests/](tests/) - Python tests
   * [data/](tests/data) - Example data

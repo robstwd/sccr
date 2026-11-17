@@ -1,5 +1,5 @@
 ---
-site_name: "sccr"
+site_name: "Semantic Clinical Concept Registry"
 theme:
   # https://www.mkdocs.org/user-guide/configuration/#theme
   name: material
@@ -57,7 +57,7 @@ markdown_extensions:
   - md_in_html
 
 watch:
-  - src/sccr-poc/schema
+  - src/sccr_poc/schema
 
 nav:
   - Home: index.md

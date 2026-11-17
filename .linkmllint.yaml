@@ -1,0 +1,5 @@
+extends: recommended
+rules:
+  standard_naming:
+    # Preserve the schema's uppercase enum values.
+    permissible_values_upper_case: true

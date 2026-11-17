@@ -1,7 +1,7 @@
 ---
 id: https://w3id.org/robstwd/sccr
 name: sccr
-title: sccr
+title: Semantic Clinical Concept Registry
 description: |-
   This is the project description.
 license: Apache-2.0
@@ -9,13 +9,13 @@ see_also:
   - https://robstwd.github.io/sccr
 
 prefixes:
-  sccr-poc: https://w3id.org/robstwd/sccr/
+  sccr_poc: https://w3id.org/robstwd/sccr/
   linkml: https://w3id.org/linkml/
   biolink: https://w3id.org/biolink/vocab/
   schema: http://schema.org/
   PATO: http://purl.obolibrary.org/obo/PATO_
   example: http://www.example.org/rdf#
-default_prefix: sccr-poc
+default_prefix: sccr_poc
 default_range: string
 
 imports:
@@ -52,6 +52,7 @@ classes:
     attributes:
       people:
         range: Person
+        description: A person I guess
         multivalued: true
         inlined_as_list: true
 

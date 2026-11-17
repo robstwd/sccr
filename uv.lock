@@ -3643,7 +3643,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sccr-poc"
+name = "sccr_poc"
 source = { editable = "." }
 dependencies = [
     { name = "linkml-runtime" },

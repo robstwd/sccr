@@ -6,10 +6,10 @@
 
 # Note:
 # - just works fine with quoted variables of dot-env files like this one
-LINKML_SCHEMA_NAME="sccr-poc"
+LINKML_SCHEMA_NAME="sccr_poc"
 LINKML_SCHEMA_AUTHOR="Rob Eastwood <my-name@my-org.org>"
 LINKML_SCHEMA_DESCRIPTION="This is the project description."
-LINKML_SCHEMA_SOURCE_DIR="src/sccr-poc/schema"
+LINKML_SCHEMA_SOURCE_DIR="src/sccr_poc/schema"
 
 ###### linkml generator variables, used by justfile
 
